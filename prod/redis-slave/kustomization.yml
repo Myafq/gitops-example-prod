@@ -1,0 +1,8 @@
+bases:
+  - ../../gitops-example-base/redis-slave
+commonLabels:
+  env: prod
+
+replicas:
+- name: redis-slave
+  count: 10

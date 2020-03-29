@@ -1,0 +1,4 @@
+bases:
+  - ../../gitops-example-base/redis-master
+commonLabels:
+  env: prod

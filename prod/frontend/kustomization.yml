@@ -1,0 +1,8 @@
+bases:
+  - ../../gitops-example-base/frontend
+commonLabels:
+  env: prod
+
+replicas:
+- name: frontend
+  count: 10
